@@ -29,7 +29,11 @@
 
 # Google Colab
 
-電腦不需安裝python，直接用google colab開啟**colab_downloader.ipynb**，在左方點選掛載google drive（建議使用ncu gsuite帳號，無限空間真的讚），照順序執行程式即可將檔案存到雲端硬碟。
+電腦不需安裝python，直接用google colab開啟**colab_downloader.ipynb**，請先在左方點選掛載google drive（建議使用ncu gsuite帳號，無限空間真的讚），再執行
+
+	%cd /content/drive/My\ Drive
+	!pwd
+再執行python主程式即可將檔案存到雲端硬碟。
 
 # Usage
 
