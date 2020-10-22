@@ -9,6 +9,15 @@
 因為測試帳號不夠，所以如果有bug還請立刻issue!
 如果未來我其他課需要用bookroll下載上課資源，將會再更新
 
+# Screenshot
+
+![1](https://raw.githubusercontent.com/lebr0nli/bookroll_pdf_downloader/main/sample1.png)
+
+
+
+
+![2](https://raw.githubusercontent.com/lebr0nli/bookroll_pdf_downloader/main/sample2.png)
+
 #  Requirements
 
 * beautifulsoup4
@@ -43,11 +52,6 @@
 代表下載**所有**教材(微積分共4GB喔)，建議搭配系館網路服用
 
 
-# Screenshot
+# 注意
 
-![1](https://raw.githubusercontent.com/lebr0nli/bookroll_pdf_downloader/main/sample1.png)
-
-
-
-
-![2](https://raw.githubusercontent.com/lebr0nli/bookroll_pdf_downloader/main/sample2.png)
+下載下來的pdf僅供學術研究使用，請尊重著作權!!!
