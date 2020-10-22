@@ -1,4 +1,5 @@
 
+
 # Bookroll PDF Downloader!
 
 由於bookroll實在太難用了，平時閒置一下就要重登入，用手機看著也很憋屈，期中考前個晚上還會掛掉....
@@ -42,3 +43,11 @@
 代表下載**所有**教材(微積分共4GB喔)，建議搭配系館網路服用
 
 
+# Screenshot
+
+![1](https://raw.githubusercontent.com/lebr0nli/bookroll_pdf_downloader/main/sample1.png)
+
+
+
+
+![2](https://raw.githubusercontent.com/lebr0nli/bookroll_pdf_downloader/main/sample2.png)
