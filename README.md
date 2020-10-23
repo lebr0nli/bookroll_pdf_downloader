@@ -3,10 +3,13 @@
 # Bookroll PDF Downloader!
 
 由於bookroll實在太難用了，平時閒置一下就要重登入，用手機看著bookroll網頁上的教材也很憋屈，期中考前個晚上還會掛掉....
-所以就用python寫了一個小工具，批量下載任何教材的pdf，如此即可離線使用更方便的工具來查看教材，一勞永逸。
+
+所以就用python寫了一個小工具，批量下載任何教材的pdf，如此即可離線使用更方便的工具來查看或編輯教材(acrobat pro、goodnote etc)，一勞永逸。
 
 由於只有在微積分這門課有用到bookroll，目前僅支援微積分
+
 因為測試帳號不夠，所以如果有bug還請立刻issue!
+
 如果未來我其他課需要用bookroll下載上課資源，將會再更新
 
 # Screenshot
@@ -29,10 +32,13 @@
 
 # Google Colab
 
-電腦不需安裝python，直接用google colab開啟**colab_downloader.ipynb**，請先在左方點選掛載google drive（建議使用ncu gsuite帳號，無限空間真的讚），再執行
+電腦不需安裝python，直接用google colab開啟**colab_downloader.ipynb**
+
+請先在左方點選掛載google drive（建議使用ncu g suite帳號，無限空間真的讚），再執行
 
 	%cd /content/drive/My\ Drive
 	!pwd
+
 再執行python主程式即可將檔案存到雲端硬碟。
 
 # Usage
