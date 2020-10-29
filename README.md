@@ -12,6 +12,10 @@
 
 如果未來我其他課需要用bookroll下載上課資源，將會再更新
 
+同場加映：
+
+[use Chrome Extension to download](https://github.com/lebr0nli/bookroll-extension)
+
 # Screenshot
 
 ![1](https://raw.githubusercontent.com/lebr0nli/bookroll_pdf_downloader/main/sample1.png)
