@@ -38,7 +38,10 @@ def login_brpt(my_session):  # return already login session,login state
 
 def get_resource_page(my_session):  # return bookroll.org session , raw_html
     print('redirect to bookroll.org......')
-    brpt_course_url = 'https://brpt.bookroll.org.tw/course/view.php?id=48'  # 課程預覽頁面
+    print('input your course id')
+    print('e.g. https://brpt.bookroll.org.tw/course/view.php?id=407 -> course id = 407')
+    course_id = input('Your course id:')
+    brpt_course_url = f'https://brpt.bookroll.org.tw/course/view.php?id={course_id}'  # 課程預覽頁面
     course_initial_html = BeautifulSoup(my_session.get(brpt_course_url).text, "html.parser")
     course_name_str = course_initial_html.find('span', {'class': 'media-body font-weight-bold'}).get_text()
     if DEBUG:
